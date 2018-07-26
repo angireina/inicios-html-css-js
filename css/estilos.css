@@ -1,0 +1,36 @@
+*{
+    margin: 0px;
+}
+:not(p){
+    margin: 0px;
+}
+p#articulo{
+    font-size: 20px;
+}
+
+p.Principal{
+    font-size: 20px
+}
+
+p.aside{
+    color: blueviolet;
+}
+
+p#aside{
+    color: red;
+}
+
+p[name="especial"] {
+    font-size: 20px;
+    color: green; 
+}
+
+p:first-child{
+    background: yellow;
+}
+p:last-child{
+    background: orange;
+}
+p:only-child{
+    background: pink;
+}

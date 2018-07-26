@@ -1,0 +1,52 @@
+body {
+    text-align: center;
+}
+
+#principal {
+    display: block;
+    width: 500px;
+    margin: 50px auto;
+    padding: 15px;
+    text-align: center;
+    
+    border:28px solid transparent;
+    -moz-border-image: url("../Imagenespng/border.png") 28 round;
+    -webkit-border-image: url("../Imagenespng/border.png") 28 round;
+    border-image: url("../Imagenespng/border.png") 28 round;
+
+    border-radius: 35px / 20px;
+    box-shadow: rgb(150, 150, 150) 5px 5px 10px;
+
+    outline: 2px dashed #D2691E;
+    outline-offset: 15px;
+
+    background: -webkit-radial-gradient(center, circle, #FFFFFF 15%, #FFDAB9
+     150%);
+    background: -moz-radial-gradient(center, circle #FFFFFF 15%, #FFDAB9
+     150%);
+
+     -moz-transition: -moz-transform 1s ease-in-out 0.5s;
+     -webkit-transition: -webkit-transform 1s ease-in-out 0.5s;
+}
+
+#principal:hover{
+
+    -moz-transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+
+}
+
+#titulo {
+    font: bold 36px 'source_sans_proextralight', verdana, sans-serif;
+    text-shadow: rgba(200,0,0, 0.5) 3px 3px 5px;
+    color: hsla(220, 40%, 60%, 0.5);
+}
+
+@font-face {
+    font-family: 'source_sans_proextralight';
+    src: url('../font/sourcesanspro-extralight-webfont.woff2') format('woff2'),
+         url('../font/sourcesanspro-extralight-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
